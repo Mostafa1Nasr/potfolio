@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    font-family: 'poppins', 'sins-serif';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #081b29;
+    color: #ededed;
+}
+
+header {
+    
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 150px ;
+}
+section {
+    padding: 100px 200px;
+}
+
+.logo{
+    text-decoration: none;
+    color: #ededed;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.navigation a{
+    text-decoration: none;
+    color: #ededed;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+.navigation a:hover{
+    color:aqua;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 10%;
+    display: flex;
+    align-items: center;
+}
+.main h2{
+    color: #ededed;
+    font-size: 56px;
+    font-weight: 600;
+    
+}
+.main h2 span{
+    color: #00abf0;
+    font-size: 32px;
+    font-weight: 700;
+    
+}
+.main h3 {
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.main-btn{
+    text-decoration: none;
+    color:#ededed;
+    background: #00abf0;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 15px 35px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+.main-btn:hover{
+    transform: scale(1.1);
+}
+.social-icons a {
+    color: #fff;
+    font-size: 1.7em;
+    padding-right: 30px;
+}
